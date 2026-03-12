@@ -1,0 +1,109 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f1f5f9;
+}
+
+/* HERO SECTION */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:60px;
+background:linear-gradient(135deg,#6366f1,#3b82f6);
+color:white;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h1{
+font-size:40px;
+}
+
+.hero-text p{
+margin:20px 0;
+}
+
+.hero button{
+padding:12px 25px;
+border:none;
+background:white;
+color:#3b82f6;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.hero-img{
+width:350px;
+}
+
+/* TECHNOLOGY */
+
+.tech{
+text-align:center;
+padding:50px;
+}
+
+.icons img{
+width:80px;
+margin:20px;
+transition:0.3s;
+}
+
+.icons img:hover{
+transform:scale(1.2);
+}
+
+/* INTERACTION */
+
+.interaction{
+text-align:center;
+padding:40px;
+}
+
+.interaction button{
+padding:12px 25px;
+background:#6366f1;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* FORM */
+
+.form-section{
+background:white;
+max-width:500px;
+margin:auto;
+padding:40px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+form button{
+width:100%;
+padding:12px;
+background:#3b82f6;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+#formMessage{
+margin-top:10px;
+font-weight:bold;
+}
